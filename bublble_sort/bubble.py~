@@ -1,5 +1,9 @@
-def swap(self, a, b):
+def swap(a, b):
     temp = 0
     temp = a
     a = b
     b = temp
+
+    print a, b
+
+swap(2, 3)

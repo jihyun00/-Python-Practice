@@ -9,8 +9,7 @@ class MyBubbleSortTest(unittest.TestCase):
        self.b = 3
 
     def test_result(self):
-       self.assertTrue(swap(2, 3), (3, 2))
-    
+       self.assertEqual(swap(2, 3), (3, 2)) 
 
 if __name__ == "__main__":
     unittest.main()
