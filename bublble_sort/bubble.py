@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 def bubble():
     num = []
     a = 0
     y = 0
-    count = input('input number which input in list')
+    count = input('input number which input in list.')
     
     while y < count:
         x = input('input list.')
